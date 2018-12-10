@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Development Environment Updates To Project Site",
+        "description": "<p>Made updates to the golang application to allow for variable cdn values.  In addition, I added a http.FileServer handler. The combination of both allows serverving local static files in a development enviornment.</p>",
+        "date": "2018-11-06 12:54:03",
+        "url": "https://www.lawas.me",
+        "tags": ["docker", "golang"]
+    },
+    {
+        "name":"CI/CD Auto Migrations",
+        "description": "<p>Updated the ansible role responsible for deploying our laravel application. In that role I added a task to execute the php-cli artisan command for database migration. I also created script to call migration task adhoc.</p>",
+        "date": "2018-11-02 10:12:34",
+        "url": "https://v2cms.dvidshub.net",
+        "tags": ["ansible", "laravel", "lxc/lxd", "php"]
+    },
+    {
+        "name":"Project Site Updates",
+        "description": "<p>Converting the existing ZendFramework 2 project (this) site into an AWS Lambda funcation by way of the Go programming language.  And since I'm working on the site, I decided to convert the the look and feel of the project page into a blog format in place of the existing thumb format.</p><p>A better format, I think, for providing details and information that may come in handy later on.</p>",
+        "date": "2018-11-01 08:52:34",
+        "url": "https://www.lawas.me",
+        "tags": ["docker", "golang"]
+    }
+]

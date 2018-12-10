@@ -1,0 +1,347 @@
+body {
+    padding-bottom: 40px;
+    background: #010d14 url('/img/site_bkgrnd.jpg') top left no-repeat;
+}
+
+.header .nav-pills>li>a 
+{
+    font-size: 20px;
+    background: none !important;
+}
+
+.alpha-box
+{
+    background: rgb(240,248,255);
+    background: rgba(240,248,255, .65);
+    border: solid 1px rgb(240,248,255);
+    box-shadow: 0 0 5px #999;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    margin-bottom: 40px;
+}
+
+.header
+{
+    margin-bottom: 40px;
+}
+
+.header h3.text-muted
+{
+    height: 50px;
+    line-height: 50px;
+}
+
+#home-bio
+{
+    padding: 40px;
+}
+
+#home-bio p
+{
+    text-align: justify;
+}
+
+.first-title
+{
+    margin-bottom: 20px;
+}
+
+/* Contact Page */
+.gl-contact-form-wrapper
+{
+    padding: 20px 10px 40px 40px;
+}
+
+.gl-contact-map-wrapper 
+{
+    padding: 40px 40px 40px 10px;
+}
+
+@media (max-width: 992px) {
+    .gl-contact-form-wrapper
+    {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .gl-contact-map-wrapper 
+    {
+        padding: 20px 20px;
+    }
+}
+
+#contact-social-links
+{
+    background: #fafafa;
+    height: 56px;
+    margin-bottom: 20px;
+}
+
+#contact-social-links p
+{
+    line-height: 20px;
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+
+#contact-social-links a
+{
+    display: inline-block;
+    width: 45%;
+    margin: 4px auto;
+    text-align: center;
+}
+
+#contact-email_format
+{
+    font-size: smaller;
+    margin-top: 12px;
+    margin-bottom: 0;
+    line-height: 12px;
+}
+
+#contact-urgent_email
+{
+    display: none;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+
+.form-group ul 
+{
+    font-size: smaller;
+    list-style-type: none;
+    margin: 8px 0 15px 0;
+    padding: 8px 15px 8px 15px;
+    border-left: 5px solid #eee;
+
+    background-color: #fcf2f2;
+    border-color: #dFb5b4;
+}
+
+.form-group li
+{
+    margin-left: 2px;
+    padding-left: 0;
+}
+
+/* Resume Page */
+
+.gl-resume-wrapper
+{
+    padding: 20px 40px 40px;
+    min-height: 600px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+footer {
+    background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+    padding: 60px 15px 0;
+}
+.container .credit {
+    margin: 15px 0;
+    line-height: 15px;
+    font-size: smaller;
+    text-align: center;
+}
+
+footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+#gl-grid-wrapper .thumbnail
+{
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 6px 12px -6px #666; 
+}
+
+.thumbnails li
+{
+    margin-bottom: 30px;
+    opacity: .90;
+}
+
+.thumbnails li:hover
+{
+    opacity: 1;
+}
+
+.thumbnails 
+{
+    overflow: hidden;
+    list-style: none;
+}
+
+.thumbnail > img 
+{
+    max-height: 132px !important;
+}
+
+.thumbnail .caption
+{
+    font-size:x-small;
+    height: 120px;
+}
+
+.thumbnail .caption h5
+{
+    text-align: center;
+}
+
+.thumbnail .caption .gl-description
+{
+    max-height: 64px;
+    overflow: hidden;
+    line-height: 16px;
+}
+
+.thumbnail .caption .gl-role
+{
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    line-height: 16px;
+}
+
+/* GRID ANIMATIONS 
+*********************************************/
+@keyframes gridhide
+{
+0% { left: 0px;}
+100% { left: -100%;}
+}
+
+@-webkit-keyframes gridhide
+{
+0% { left: 0px;}
+100% { left: -100%;}
+}
+
+@-moz-keyframes gridhide
+{
+0% { left: 0px;}
+100% { left: -100%;}
+}
+
+@keyframes gridshow
+{
+0% { left: -100%;}
+100% { left: 0px;}
+}
+
+@-webkit-keyframes gridshow
+{
+0% { left: -100%;}
+100% { left: 0px;}
+}
+
+@-moz-keyframes gridshow
+{
+0% { left: -100%;}
+100% { left: 0px;}
+}
+
+#gl-project-window
+{
+    overflow: hidden;
+}
+
+#gl-project-pane
+{
+    position: relative;
+}
+
+
+#gl-project-window.gl-display-loader .thumbnails
+{
+    opacity: .4;
+}
+
+#gl-project-wrapper,
+#gl-grid-wrapper
+{
+    width: 50%;
+    float: left;
+}
+
+#gl-project-window.gl-display-project #gl-project-pane
+{
+    left:-100%;
+    animation: gridhide;
+    animation-duration: 1s;
+    -webkit-animation: gridhide;
+    -webkit-animation-duration: 1s;
+    -moz-animation: gridhide;
+    -moz-animation-duration: 1s;
+}
+
+#gl-project-window.gl-display-grid #gl-project-pane
+{
+    left: 0px;
+    animation: gridshow;
+    animation-duration: 1s;
+    -webkit-animation: gridshow;
+    -webkit-animation-duration: 1s;
+    -moz-animation: gridshow;
+    -moz-animation-duration: 1s;
+}
+
+#loader
+{
+    height: 586px;
+}
+
+#loader img
+{
+   padding-top: 40px; 
+}
+
+#loader h2
+{
+    padding-bottom: 40px;
+}
+
+.project-detail-block li
+{
+    list-style-type: none;
+}
+
+.project_item
+{
+    margin-bottom: 40px;
+}
